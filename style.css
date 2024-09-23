@@ -52,3 +52,22 @@ iframe {
     margin-left: 10px;
     font-size: 18px;
 }
+h2 {
+    text-align: center;
+    color: white;
+}
+table {
+    width: 100%;
+    border: 2px solid gray;
+}
+tr {
+    color: white;
+    text-align: center;
+}
+tr:nth-child(odd) {
+    background-color: #393D3F;
+}
+
+th {
+    font-size: 20px;
+}
