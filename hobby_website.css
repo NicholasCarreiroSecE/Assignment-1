@@ -1,70 +1,96 @@
 html {
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: 1.2rem "Fira Sans", sans-serif;
     background-color: black;
 }
-.container{
+
+.header h1 {
+        background-color: #393D3F;
+        border-style: solid;
+        border-color: gray;
+        border-radius: 100%;
+        border-width: 100%;
+        margin-left: 25%;
+        margin-right: 25%;
+        height: 8%;
+        padding: 8px;
+}
+
+.container {
     width: 100%;
     background-color: #0D0A0B;
     color: white;
 }
+
 .container .row {
     width: 80%;
     margin: auto;
 }
+
 .container .row .header {
     text-align: center;
     width: 60%;
     margin: auto;
 }
+
 .container .row .header h1 {
     padding-top: 30px;
     font-size: 40;
     color: #546A7B;
 }
+
 img {
     width: 450px;
     height: 250px;
 }
+
 iframe {
     width: 450px;
     height: 250px;
 }
+
 .container .row .header p {
     margin-top: 15px;
     font-size: 18px;
     line-height: 1.5px;
     color: grey;
 }
+
 .content {
     display: flex;
     align-items: center;
     margin: auto;
     margin-top: 35px;
 }
+
 .content .card {
     flex: 1px;
-    margin: 50px 20px; 
+    margin: 50px 20px;
 }
+
 .content .card h4 {
     margin-top: 10px;
     margin-left: 10px;
     font-size: 18px;
 }
+
 h2 {
     text-align: center;
     color: white;
 }
+
 table {
     width: 100%;
     border: 2px solid gray;
 }
+
 tr {
     color: white;
     text-align: center;
 }
+
 tr:nth-child(odd) {
     background-color: #393D3F;
 }
@@ -72,4 +98,18 @@ tr:nth-child(odd) {
 th {
     font-size: 20px;
     background-color: #0D0A0B;
+}
+
+.footer {
+    width: 15%;
+    margin: auto;
+    text-align: center;
+    background-color: #393D3F;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    height: 8%;
+    padding: 8px;
+    margin-top: 25px;
 }

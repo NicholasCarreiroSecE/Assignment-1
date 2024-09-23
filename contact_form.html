@@ -1,16 +1,23 @@
 <html>
+
 <head>
     <title>Submit Game Requests</title>
+    <link rel="stylesheet" href="contact_form.css">
 </head>
+
 <body>
-    <h2>Submit a recommendation for games I can review!</h2>
+    <h2>Submit your review on your favourite games!</h2>
+    <p>Share Your Review!</p>
     <table>
         <tr>
-        <input type="text" name="title" placeholder="Enter the title of the game">
-        <input type="text" name="rating" placeholder="Enter your rating for the game" >
-        <input type="text" name="description" placeholder="Enter a description of the game">
+            <input type="text" name="title" placeholder="Game Title">
+            <input type="number" name="rating" placeholder="Game Rating">
+            <input type="text" name="description" placeholder="Game Description">
+            <button type="button"
+            onclick="alert('Thank you for your recommendation!')">Submit
+            Review</button>
         </tr>
     </table>
-    <button type="button" onclick="alert('Thank you for your recommendation! I am looking forward to reviewing this game next!')">Submit Form</button>
 </body>
+
 </html>
