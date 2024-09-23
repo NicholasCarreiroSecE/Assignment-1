@@ -28,6 +28,7 @@ In my body comes the the header and paragraph that let the user know what to do 
 Then comes a table that easily allows me to arrange the needed inputs and buttons to where I want them to go.
 In my table I use input tag three times in order to get the users information on their review, such as game title, game rating and game description.
 After my inputs comes my submit button that enters in the information once the user has entered in into the input and clicked the button. The button prompts the user with an alert that thanks them for their recommendation and review.
+
 //--------------------------- Design choices contact_form.html
 In the styling of my contact form I opt to keep the same colour pallette of my main website in order to maintain the cohesion of the two sites.
 First I set the background once again to black which I will later use lighter colours to compliment the darker background.
