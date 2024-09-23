@@ -29,3 +29,19 @@ iframe {
     width: 450px;
     height: 250px;
 }
+.container .row .header p {
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 1.5px;
+    color: grey;
+}
+.content {
+    display: flex;
+    align-items: center;
+    margin: auto;
+margin-top: 35px;
+}
+.content .card {
+    flex: 1px;
+    margin: 50px 20px; 
+}
