@@ -3,6 +3,7 @@ html {
     padding:0px;
     box-sizing: border-box;
     font-family: 1.2rem "Fira Sans", sans-serif;
+    background-color: black;
 }
 .container{
     width: 100%;
